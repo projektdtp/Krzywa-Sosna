@@ -29,7 +29,7 @@
     "section": "Jedno zdjęcie może rozpocząć dobry projekt.",
     "label": "H1: Jedno zdjęcie może rozpocząć",
     "kind": "Text",
-    "value": "Jedno zdjęcie może rozpocząć"
+    "value": "Jedno zdjęcie może rozpocząć "
   },
   {
     "key": "kontakt.image.001",
