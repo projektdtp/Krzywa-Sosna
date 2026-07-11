@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#0a0907" name="theme-color"/>
+<title>Wstępna wycena — Krzywa Sosna</title>
+<meta content="Kalkulator orientacyjnej wyceny mebli na wymiar." name="description"/>
+<link href="assets/css/site.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="topbar">
+<div class="shell topbar-row">
+<a aria-label="Krzywa Sosna" class="logo-link" data-content-link-key="wycena.link.001" href="index.html">
+<img alt="Krzywa Sosna — meble na wymiar" src="assets/branding/logo-poziome.webp"/>
+</a>
+<nav aria-label="Menu główne" class="desktop-nav"><a href="index.html">Start</a><a href="realizacje.html">Realizacje</a><a href="o-nas.html">O nas i proces</a><a class="active" href="wycena.html">Wycena</a><a href="krzywa_sosna_sklep.html">Sklep</a><a href="kontakt.html">Kontakt</a></nav>
+</div>
+</header>
+<main class="page"><div class="shell">
+<section class="page-hero reveal">
+<div class="page-hero-copy"><div class="eyebrow"><span data-content-key="wycena.text.001">Wstępna wycena</span></div><h1><span data-content-key="wycena.text.002">Sprawdź, od jakiego</span><span><span data-content-key="wycena.text.003">budżetu zacząć.</span></span></h1><p><span data-content-key="wycena.text.004">To orientacyjne widełki, które pomagają podjąć pierwszą decyzję. Dokładna wycena powstaje po pomiarze i ustaleniu materiałów.</span></p></div>
+<img alt="Projektowanie mebli" data-content-image-key="wycena.image.001" src="assets/img/projektowanie.webp"/>
+</section>
+<section class="section dashboard-grid">
+<div class="panel panel-pad">
+<form class="form-grid" id="quoteForm">
+<div class="field"><label><span data-content-key="wycena.text.005">Rodzaj zabudowy</span></label><select id="qType" name="type"><option value="kitchen"><span data-content-key="wycena.text.006">Kuchnia</span></option><option value="wardrobe"><span data-content-key="wycena.text.007">Szafa / garderoba</span></option><option value="rtv"><span data-content-key="wycena.text.008">Zabudowa RTV</span></option><option value="bathroom"><span data-content-key="wycena.text.009">Łazienka</span></option><option value="slope"><span data-content-key="wycena.text.010">Zabudowa pod skosem</span></option></select></div>
+<div class="field"><label><span data-content-key="wycena.text.011">Standard</span></label><select id="qStandard"><option value="1"><span data-content-key="wycena.text.012">Standard</span></option><option selected="" value="1.25"><span data-content-key="wycena.text.013">Premium</span></option><option value="1.48"><span data-content-key="wycena.text.014">Luxury</span></option></select></div>
+<div class="field"><label><span data-content-key="wycena.text.015">Szerokość (cm)</span></label><input id="qWidth" min="50" type="number" value="320"/></div>
+<div class="field"><label><span data-content-key="wycena.text.016">Wysokość (cm)</span></label><input id="qHeight" min="50" type="number" value="240"/></div>
+<div class="field"><label><span data-content-key="wycena.text.017">Głębokość (cm)</span></label><input id="qDepth" min="20" type="number" value="60"/></div>
+<div class="field"><label><span data-content-key="wycena.text.018">Fronty</span></label><select id="qFront"><option value="1"><span data-content-key="wycena.text.019">Płyta meblowa</span></option><option selected="" value="1.28"><span data-content-key="wycena.text.020">MDF lakier / akryl</span></option><option value="1.55"><span data-content-key="wycena.text.021">Fornir / drewno</span></option></select></div>
+<div class="field"><label><span data-content-key="wycena.text.022">Liczba szuflad</span></label><input id="qDrawers" min="0" type="number" value="5"/></div>
+<div class="field"><label><span data-content-key="wycena.text.023">Odległość od Lublina (km)</span></label><input id="qDistance" min="0" type="number" value="20"/></div>
+<div class="field full"><label><span data-content-key="wycena.text.024">Dodatki</span></label><div class="check-grid">
+<label class="check"><input checked="" id="qSoft" type="checkbox"/><span data-content-key="wycena.text.025">Cichy domyk</span></label>
+<label class="check"><input checked="" id="qLed" type="checkbox"/><span data-content-key="wycena.text.026">Oświetlenie LED</span></label>
+<label class="check"><input id="qTop" type="checkbox"/><span data-content-key="wycena.text.027">Blat</span></label>
+<label class="check"><input checked="" id="qAssembly" type="checkbox"/><span data-content-key="wycena.text.028">Montaż</span></label>
+<label class="check"><input id="qSlope" type="checkbox"/><span data-content-key="wycena.text.029">Trudne ściany / skosy</span></label>
+<label class="check"><input id="qPremium" type="checkbox"/><span data-content-key="wycena.text.030">Okucia premium</span></label>
+</div></div>
+</form>
+</div>
+<aside class="result-card">
+<div class="eyebrow"><span data-content-key="wycena.text.031">Orientacyjny przedział</span></div><div class="result-price" id="qResult"><span data-content-key="wycena.text.032">12 400–16 300 zł</span></div>
+<p class="lead"><span data-content-key="wycena.text.033">Wynik nie jest ofertą handlową. Pokazuje skalę budżetu przy podanych parametrach.</span></p>
+<ul><li><span data-content-key="wycena.text.034">materiały i wyposażenie wpływają na cenę,</span></li><li><span data-content-key="wycena.text.035">pomiar i projekt pozwalają doprecyzować zakres,</span></li><li><span data-content-key="wycena.text.036">możesz wysłać parametry bez przepisywania.</span></li></ul>
+<button class="btn primary" id="qWhatsapp" type="button"><span data-content-key="wycena.text.037">Wyślij parametry przez WhatsApp</span></button>
+</aside>
+</section>
+</div></main>
+<a aria-label="WhatsApp" class="whatsapp-float" data-content-link-key="wycena.link.002" data-setting-link="whatsapp" href="https://wa.me/48578414690?text=Dzie%C5%84%20dobry%2C%20pisz%C4%99%20ze%20strony%20Krzywa%20Sosna." target="_blank"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20 11.5a8 8 0 0 1-11.8 7L4 20l1.4-4A8 8 0 1 1 20 11.5z"></path><path d="M9 8.5c.5 2.5 2 4 4.5 5"></path></svg></a>
+<footer class="site-footer">
+<div class="shell footer-row">
+<img alt="Krzywa Sosna" src="assets/branding/logo-poziome.webp"/>
+<div data-setting-area-block="true">Województwo lubelskie · inne lokalizacje po uzgodnieniu<br/>Telefon: 578 414 690</div>
+</div>
+</footer>
+<script src="quote-settings.js"></script><script src="site-settings.js"></script><script src="site-content.js"></script><script src="assets/js/content-engine.js"></script><script src="assets/js/site.js"></script>
+<nav aria-label="Menu mobilne" class="bottom-nav"><a class="" href="index.html"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3 11.2 12 4l9 7.2v8.3a.5.5 0 0 1-.5.5H15v-6H9v6H3.5a.5.5 0 0 1-.5-.5z"></path></svg><span>Start</span></a><a class="" href="realizacje.html"><svg aria-hidden="true" viewBox="0 0 24 24"><rect height="16" rx="2" width="18" x="3" y="4"></rect><circle cx="8" cy="9" r="1.4"></circle><path d="m5 18 5-5 3 3 2-2 4 4"></path></svg><span>Realizacje</span></a><a class="active" href="wycena.html"><svg aria-hidden="true" viewBox="0 0 24 24"><rect height="18" rx="2" width="14" x="5" y="3"></rect><path d="M8 7h8M8 12h2m4 0h2M8 16h2m4 0h2"></path></svg><span>Wycena</span></a><a class="" href="krzywa_sosna_sklep.html"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 9h16l-1 11H5zM8 9V7a4 4 0 0 1 8 0v2"></path></svg><span>Sklep</span></a><a class="" href="kontakt.html"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 3h3l1.2 4-2 1.5a15 15 0 0 0 6.3 6.3l1.5-2L21 14v3c0 2-2 4-4 4C9.3 20.2 3.8 14.7 3 7c0-2 2-4 4-4z"></path></svg><span>Kontakt</span></a></nav>
+<script>
+(function(){
+  const $ = id => document.getElementById(id);
+
+  const defaults = {
+    kitchenPricePerMeter: 1850,
+    kitchenMinimum: 7200,
+    wardrobePricePerMeter: 1150,
+    wardrobeMinimum: 3900,
+    rtvPricePerMeter: 1050,
+    rtvMinimum: 3200,
+    bathroomPricePerMeter: 1350,
+    bathroomMinimum: 4200,
+    slopePricePerMeter: 1450,
+    slopeMinimum: 4800,
+    standardStandardPercent: 100,
+    standardPremiumPercent: 125,
+    standardLuxuryPercent: 148,
+    frontBoardPercent: 100,
+    frontMdfPercent: 128,
+    frontWoodPercent: 155,
+    drawerUnitPrice: 360,
+    softClosePerMeter: 260,
+    ledPerMeter: 380,
+    worktopPerMeter: 850,
+    assemblyMinimum: 900,
+    assemblyPercent: 11,
+    difficultWallsPercent: 118,
+    premiumHardwareMinimum: 900,
+    premiumHardwarePerMeter: 520,
+    freeDistanceKm: 30,
+    extraKmPrice: 5,
+    lowerRangePercent: 90,
+    upperRangePercent: 118,
+    roundTo: 100
+  };
+
+  const settings = Object.assign({}, defaults, window.KS_QUOTE_SETTINGS || {});
+
+  function value(name) {
+    const number = Number(settings[name]);
+    return Number.isFinite(number) ? number : defaults[name];
+  }
+
+  function factor(name) {
+    return Math.max(0, value(name)) / 100;
+  }
+
+  function rounded(number) {
+    const step = Math.max(1, value("roundTo"));
+    return Math.round(number / step) * step;
+  }
+
+  function selectedStandardFactor() {
+    const map = {
+      "1": "standardStandardPercent",
+      "1.25": "standardPremiumPercent",
+      "1.48": "standardLuxuryPercent"
+    };
+    return factor(map[$("qStandard").value] || "standardPremiumPercent");
+  }
+
+  function selectedFrontFactor() {
+    const map = {
+      "1": "frontBoardPercent",
+      "1.28": "frontMdfPercent",
+      "1.55": "frontWoodPercent"
+    };
+    return factor(map[$("qFront").value] || "frontMdfPercent");
+  }
+
+  function typePrices(type) {
+    const prices = {
+      kitchen: [value("kitchenPricePerMeter"), value("kitchenMinimum")],
+      wardrobe: [value("wardrobePricePerMeter"), value("wardrobeMinimum")],
+      rtv: [value("rtvPricePerMeter"), value("rtvMinimum")],
+      bathroom: [value("bathroomPricePerMeter"), value("bathroomMinimum")],
+      slope: [value("slopePricePerMeter"), value("slopeMinimum")]
+    };
+    return prices[type] || prices.kitchen;
+  }
+
+  function calc() {
+    const type = $("qType").value;
+    const widthMeters = Math.max(0.5, Number($("qWidth").value) || 0) / 100;
+    const base = typePrices(type);
+
+    let price = Math.max(base[1], widthMeters * base[0]);
+    price *= selectedStandardFactor() * selectedFrontFactor();
+
+    price += (Number($("qDrawers").value) || 0) * value("drawerUnitPrice");
+
+    if ($("qSoft").checked) {
+      price += widthMeters * value("softClosePerMeter");
+    }
+
+    if ($("qLed").checked) {
+      price += widthMeters * value("ledPerMeter");
+    }
+
+    if ($("qTop").checked) {
+      price += widthMeters * value("worktopPerMeter");
+    }
+
+    if ($("qAssembly").checked) {
+      price += Math.max(
+        value("assemblyMinimum"),
+        price * factor("assemblyPercent")
+      );
+    }
+
+    if ($("qSlope").checked) {
+      price *= factor("difficultWallsPercent");
+    }
+
+    if ($("qPremium").checked) {
+      price += Math.max(
+        value("premiumHardwareMinimum"),
+        widthMeters * value("premiumHardwarePerMeter")
+      );
+    }
+
+    const extraKm = Math.max(
+      0,
+      (Number($("qDistance").value) || 0) - value("freeDistanceKm")
+    );
+    price += extraKm * value("extraKmPrice");
+
+    const lowerFactor = factor("lowerRangePercent");
+    const upperFactor = factor("upperRangePercent");
+
+    const lowerRaw = price * Math.min(lowerFactor, upperFactor);
+    const upperRaw = price * Math.max(lowerFactor, upperFactor);
+
+    const lo = rounded(lowerRaw);
+    const hi = rounded(upperRaw);
+
+    $("qResult").textContent =
+      lo.toLocaleString("pl-PL") + "–" +
+      hi.toLocaleString("pl-PL") + " zł";
+
+    return { lo, hi, type };
+  }
+
+  document
+    .querySelectorAll("#quoteForm input,#quoteForm select")
+    .forEach(element => element.addEventListener("input", calc));
+
+  $("qWhatsapp").addEventListener("click", () => {
+    const result = calc();
+    const siteSettings = window.KS_SITE_SETTINGS || {};
+    const whatsappNumber = siteSettings.whatsappNumber || "48578414690";
+
+    const message =
+      `Dzień dobry, proszę o kontakt w sprawie wstępnej wyceny.
+` +
+      `Rodzaj: ${$("qType").selectedOptions[0].text}
+` +
+      `Wymiary: ${$("qWidth").value} × ${$("qHeight").value} × ${$("qDepth").value} cm
+` +
+      `Wynik orientacyjny: ${result.lo.toLocaleString("pl-PL")}–${result.hi.toLocaleString("pl-PL")} zł`;
+
+    window.open(
+      "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(message),
+      "_blank"
+    );
+  });
+
+  calc();
+})();
+</script>
+</body>
+</html>
