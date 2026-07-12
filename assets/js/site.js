@@ -54,23 +54,6 @@
     });
   });
 
-  // homepage shop popup once per session
-  const popup = $("#shopPopup");
-  if (popup) {
-    const key = "ks20_shop_popup_seen";
-    let seen = false;
-    try { seen = sessionStorage.getItem(key) === "1"; } catch (_) {}
-    const popupSettings=window.KS_SITE_SETTINGS||{}; if (popupSettings.popupEnabled!==false && !seen) setTimeout(() => popup.classList.add("show"), Number(popupSettings.popupDelayMs||900));
-
-    function closePopup() {
-      popup.classList.remove("show");
-      try { sessionStorage.setItem(key, "1"); } catch (_) {}
-    }
-    $$("[data-popup-close]", popup).forEach(el => el.addEventListener("click", closePopup));
-    $(".popup-shop-link", popup)?.addEventListener("click", () => {
-      try { sessionStorage.setItem(key, "1"); } catch (_) {}
-    });
-  }
 
   // brief -> WhatsApp
   const brief = $("#briefForm");

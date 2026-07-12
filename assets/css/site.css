@@ -782,3 +782,22 @@ h1 { font-size: clamp(46px, 7vw, var(--ks-font-h1-desktop)); }
   h1 { font-size: var(--ks-font-h1-mobile); }
   .section { margin-top: var(--ks-section-mobile); }
 }
+
+
+/* Popup campaigns managed by Krzywa Sosna Manager */
+body.ks-popup-open { overflow:hidden; }
+.ks-popup-card { width:min(var(--ks-popup-width,610px),95vw); }
+.ks-popup-card > img,
+.ks-popup-image-link,
+.ks-popup-image-link img { display:block; width:100%; }
+.ks-popup-card > img,
+.ks-popup-image-link img { max-height:72vh; object-fit:contain; background:#080604; }
+.ks-popup-copy { padding:24px 26px 18px; text-align:center; }
+.ks-popup-copy h2 { margin:0 0 10px; font:500 clamp(28px,4vw,42px)/1.05 Georgia,serif; color:var(--text); }
+.ks-popup-copy p { margin:0 auto 18px; max-width:48ch; color:var(--muted); line-height:1.65; }
+.ks-popup-cta { display:inline-flex; justify-content:center; }
+@media (max-width:600px) {
+  .ks-popup-copy { padding:20px 18px 14px; }
+  .ks-popup-card > img,
+  .ks-popup-image-link img { max-height:66vh; }
+}

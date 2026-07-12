@@ -29,7 +29,7 @@
     "section": "Jedno zdjęcie może rozpocząć dobry projekt.",
     "label": "H1: Jedno zdjęcie może rozpocząć",
     "kind": "Text",
-    "value": "Jedno zdjęcie może rozpocząć"
+    "value": "Jedno zdjęcie może rozpocząć "
   },
   {
     "key": "kontakt.image.001",
@@ -813,7 +813,7 @@
     "section": "Rzemiosło, projekt i odpowiedzialny proces.",
     "label": "H1: Rzemiosło, projekt i",
     "kind": "Text",
-    "value": "Rzemiosło, projekt i "
+    "value": "Rzemiosło, projekt i"
   },
   {
     "key": "o_nas.image.001",

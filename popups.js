@@ -1,0 +1,31 @@
+﻿window.KS_POPUPS = [
+  {
+    "id": "sklep-start",
+    "name": "Sklep Krzywej Sosny",
+    "heading": "",
+    "description": "",
+    "imageFileName": "assets/img/popups/popup-sklep-20260712121832.png",
+    "imageAlt": "Nowość — sklep Krzywej Sosny",
+    "linkUrl": "krzywa_sosna_sklep.html",
+    "buttonText": "",
+    "closeText": "Może później",
+    "openLinkInNewTab": false,
+    "isActive": true,
+    "sortOrder": 1,
+    "delayMs": 900,
+    "maxWidth": 610,
+    "frequency": "everyVisit",
+    "startDate": "2026-07-13T00:00:00",
+    "endDate": "2026-07-14T00:00:00",
+    "startTime": "00:00",
+    "endTime": "23:59",
+    "showOnAllPages": false,
+    "showOnHome": true,
+    "showOnRealizations": false,
+    "showOnAbout": false,
+    "showOnProcess": false,
+    "showOnQuote": false,
+    "showOnShop": false,
+    "showOnContact": false
+  }
+];
