@@ -29,7 +29,7 @@
     "section": "Jedno zdjęcie może rozpocząć dobry projekt.",
     "label": "H1: Jedno zdjęcie może rozpocząć",
     "kind": "Text",
-    "value": "Jedno zdjęcie może rozpocząć "
+    "value": "Jedno zdjęcie może rozpocząć"
   },
   {
     "key": "kontakt.image.001",
@@ -813,7 +813,7 @@
     "section": "Rzemiosło, projekt i odpowiedzialny proces.",
     "label": "H1: Rzemiosło, projekt i",
     "kind": "Text",
-    "value": "Rzemiosło, projekt i"
+    "value": "Rzemiosło, projekt i "
   },
   {
     "key": "o_nas.image.001",
@@ -1213,7 +1213,7 @@
     "section": "Pomysł, funkcja i dobry detal.",
     "label": "H1: Pomysł, funkcja i",
     "kind": "Text",
-    "value": "Pomysł, funkcja i"
+    "value": "Pomysł, funkcja i "
   },
   {
     "key": "realizacje.image.001",
@@ -1381,7 +1381,7 @@
     "section": "Gotowe pomysły. Indywidualne wykonanie.",
     "label": "H1: Gotowe pomysły.",
     "kind": "Text",
-    "value": "Gotowe pomysły."
+    "value": "Gotowe pomysły. "
   },
   {
     "key": "krzywa_sosna_sklep.image.001",
@@ -1933,7 +1933,7 @@
     "section": "Wnętrza, które pasują do Twojego życia.",
     "label": "H1: Wnętrza, które pasują do",
     "kind": "Text",
-    "value": "Wnętrza, które pasują do"
+    "value": "Wnętrza, które pasują do "
   },
   {
     "key": "index.link.003",
@@ -2349,7 +2349,7 @@
     "section": "Sprawdź, od jakiego budżetu zacząć.",
     "label": "H1: Sprawdź, od jakiego",
     "kind": "Text",
-    "value": "Sprawdź, od jakiego"
+    "value": "Sprawdź, od jakiego "
   },
   {
     "key": "wycena.image.001",
