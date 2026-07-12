@@ -4,7 +4,7 @@
     "name": "Sklep Krzywej Sosny",
     "heading": "",
     "description": "",
-    "imageFileName": "assets/img/popups/popup-sklep-20260712121832.png",
+    "imageFileName": "assets/img/popups/prl-20260712140038.png",
     "imageAlt": "Nowość — sklep Krzywej Sosny",
     "linkUrl": "krzywa_sosna_sklep.html",
     "buttonText": "",
