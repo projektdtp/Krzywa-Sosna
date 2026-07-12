@@ -6,7 +6,7 @@
     "badge": "Nowość",
     "description": "Elegancka półka z jasnego dębu, wyróżniająca się naturalnym usłojeniem i ponadczasowym wyglądem. Doskonale pasuje do wnętrz nowoczesnych, skandynawskich i klasycznych.\n\nSprawdzi się w salonie, kuchni, sypialni lub biurze jako miejsce na książki, dekoracje i rośliny. Każdy egzemplarz ma unikalny rysunek drewna.",
     "price": "od 200 zł",
-    "imageFileName": "img/sklep/polka-debowa-20260712162723.jpg",
+    "imageFileName": "img/sklep/polka-debowa-20260712162723-web.jpg",
     "isActive": true,
     "sortOrder": 1
   },
@@ -17,7 +17,7 @@
     "badge": "Nowość",
     "description": "Elegancka półka z ciemnego dębu, wyróżniająca się naturalnym usłojeniem i szlachetnym wykończeniem. Doskonale pasuje do wnętrz nowoczesnych, loftowych i klasycznych.\n\nSprawdzi się w salonie, sypialni, kuchni lub biurze jako miejsce na książki, dekoracje i rośliny. Każdy egzemplarz ma unikalny rysunek drewna.",
     "price": "od 200 zł",
-    "imageFileName": "img/sklep/polka-debowa-ciemna-20260712163513.jpg",
+    "imageFileName": "img/sklep/polka-debowa-ciemna-20260712163513-web.jpg",
     "isActive": true,
     "sortOrder": 2
   },
@@ -28,7 +28,7 @@
     "badge": "Nowość",
     "description": "Niski stolik kawowy o eleganckiej, ponadczasowej formie. Naturalne wykończenie drewna podkreśla jego wyjątkowy charakter i sprawia, że doskonale pasuje do wnętrz nowoczesnych, klasycznych i loftowych.\n\nIdealny do salonu jako miejsce na kawę, książki, dekoracje i codzienne drobiazgi.",
     "price": "od 400 zł",
-    "imageFileName": "img/sklep/stolik-kawowy-20260712163708.jpg",
+    "imageFileName": "img/sklep/stolik-kawowy-20260712163708-web.jpg",
     "isActive": true,
     "sortOrder": 3
   },
@@ -39,7 +39,7 @@
     "badge": "Nowość",
     "description": "Praktyczny regalik wiszący o lekkiej, ponadczasowej formie. Idealny na książki, dekoracje, rośliny lub drobne przedmioty. Dzięki kompaktowym wymiarom sprawdzi się w salonie, sypialni, pokoju dziecka, kuchni lub domowym biurze, nie zajmując miejsca na podłodze.",
     "price": "od 300 zł",
-    "imageFileName": "img/sklep/regalik-wiszacy-20260712165349.jpg",
+    "imageFileName": "img/sklep/regalik-wiszacy-20260712165349-web.jpg",
     "isActive": true,
     "sortOrder": 4
   },
@@ -50,7 +50,7 @@
     "badge": "Nowość",
     "description": "Funkcjonalny regał stojący o prostej, ponadczasowej formie. Pojemne półki zapewniają wygodne miejsce na książki, dekoracje i codzienne drobiazgi. Doskonale sprawdzi się w salonie, sypialni, pokoju dziecka lub domowym biurze.",
     "price": "od 300 zł",
-    "imageFileName": "img/sklep/regal-stojacy-2-20260712190121.jpg",
+    "imageFileName": "img/sklep/regal-stojacy-2-20260712190121-web.jpg",
     "isActive": true,
     "sortOrder": 5
   },
@@ -61,7 +61,7 @@
     "badge": "Nowość",
     "description": "Funkcjonalny regał stojący o prostej, ponadczasowej formie. Pojemne półki zapewniają wygodne miejsce na książki, dekoracje i codzienne drobiazgi. a szuflady skrzętnie ukryją przedmioty nie codziennego użytku. Doskonale sprawdzi się w salonie, sypialni, pokoju dziecka lub domowym biurze.",
     "price": "od 500 zł",
-    "imageFileName": "img/sklep/regal-stojacy-1-20260712165529.jpg",
+    "imageFileName": "img/sklep/regal-stojacy-1-20260712165529-web.jpg",
     "isActive": true,
     "sortOrder": 6
   },
@@ -72,7 +72,7 @@
     "badge": "Nowość",
     "description": "Solidna i estetyczna szafka zaprojektowana z myślą o bezpiecznym ustawieniu akwarium. Zapewnia stabilne podparcie oraz praktyczne miejsce na filtr, akcesoria i środki do pielęgnacji zbiornika. Prosta forma sprawia, że dobrze pasuje do wnętrz nowoczesnych, klasycznych i loftowych.",
     "price": "od 400",
-    "imageFileName": "img/sklep/szafka-pod-akwarium-20260712190321.jpg",
+    "imageFileName": "img/sklep/szafka-pod-akwarium-20260712190321-web.jpg",
     "isActive": true,
     "sortOrder": 7
   },
@@ -83,7 +83,7 @@
     "badge": "Nowość",
     "description": "Szybki sposób na odświeżenie kuchni lub zabudowy bez konieczności wymiany całych mebli. Nowe fronty zmieniają wygląd wnętrza, nadając mu nowoczesny i estetyczny charakter. Oferujemy dopasowanie kolorów, materiałów, uchwytów oraz wykonanie frontów na wymiar.",
     "price": "zapytaj o cenę",
-    "imageFileName": "img/sklep/wymiana-frontow-20260712190510.jpg",
+    "imageFileName": "img/sklep/wymiana-frontow-20260712190510-web.jpg",
     "isActive": true,
     "sortOrder": 8
   },
@@ -94,7 +94,7 @@
     "badge": "Tylko u nas",
     "description": "Praktyczna i estetyczna szafka, która dyskretnie ukrywa kuwetę oraz pomaga ograniczyć rozsypywanie żwirku i nieprzyjemne zapachy. Zapewnia kotu wygodne, spokojne miejsce, a dodatkowe półki lub schowki pozwalają przechowywać akcesoria i środki do pielęgnacji.",
     "price": "od 600 zł",
-    "imageFileName": "img/sklep/szafka-z-kuweta-20260712190855.jpg",
+    "imageFileName": "img/sklep/szafka-z-kuweta-20260712190855-web.jpg",
     "isActive": true,
     "sortOrder": 9
   },
@@ -105,7 +105,7 @@
     "badge": "Tylko u nas",
     "description": "Funkcjonalna szafka z wygodnym miejscem do odpoczynku dla psa. Łączy estetyczny wygląd mebla z praktycznym legowiskiem, które można dopasować do wielkości pupila i stylu wnętrza. Dodatkowe schowki ułatwiają przechowywanie karmy, smyczy i akcesoriów",
     "price": "od 600 zł",
-    "imageFileName": "img/sklep/mebel-z-legowiskiem-20260712191043.jpg",
+    "imageFileName": "img/sklep/mebel-z-legowiskiem-20260712191043-web.jpg",
     "isActive": true,
     "sortOrder": 10
   },
@@ -116,7 +116,7 @@
     "badge": "Nowość",
     "description": "Praktyczne i estetyczne biurko stworzone z myślą o nauce, rysowaniu i rozwijaniu pasji. Pojemne szuflady oraz półki pomagają utrzymać porządek, a kolorystykę i układ można dopasować do wystroju pokoju oraz wieku dziecka.",
     "price": "od 400 zł",
-    "imageFileName": "img/sklep/biurko-dziewczynki-20260712191243.jpg",
+    "imageFileName": "img/sklep/biurko-dziewczynki-20260712191243-web.jpg",
     "isActive": true,
     "sortOrder": 11
   },
@@ -127,7 +127,7 @@
     "badge": "Nowość",
     "description": "Nowoczesne biurko stworzone z myślą o graniu, nauce i codziennym korzystaniu z komputera. Zapewnia wygodne miejsce na monitor, komputer oraz akcesoria, a praktyczne półki i szuflady pomagają utrzymać porządek. Kolorystykę, oświetlenie LED i układ biurka można dopasować do stylu pokoju młodego gracza.",
     "price": "od 500 zł",
-    "imageFileName": "img/sklep/biurko-gracza-20260712191414.jpg",
+    "imageFileName": "img/sklep/biurko-gracza-20260712191414-web.jpg",
     "isActive": true,
     "sortOrder": 12
   },
@@ -138,7 +138,7 @@
     "badge": "Nowość",
     "description": "Praktyczny mebel do przechowywania zabawek, książek i dziecięcych drobiazgów. Pomaga utrzymać porządek w pokoju, a solidna konstrukcja i bezpieczne wykończenie sprawiają, że dobrze sprawdzi się w codziennym użytkowaniu. Kolor, wymiary i układ schowków można dopasować do wystroju wnętrza.",
     "price": "od 200 zł",
-    "imageFileName": "img/sklep/kufer-na-zabawki-20260712191506.jpg",
+    "imageFileName": "img/sklep/kufer-na-zabawki-20260712191506-web.jpg",
     "isActive": true,
     "sortOrder": 13
   }

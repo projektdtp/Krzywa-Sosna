@@ -168,17 +168,97 @@
   px("--ks-button-radius", appearance.buttonRadius, 999, 0, 999);
   root.style.setProperty("--ks-image-brightness", number(appearance.imageBrightnessPercent, 100, 35, 150) + "%");
 
-  const digits = String(s.phone || "").replace(/\D/g, "");
-  const phoneDigits = digits.startsWith("48") ? digits : "48" + digits;
-  document.querySelectorAll('[data-setting-link="phone"]').forEach(a => a.href = "tel:+" + phoneDigits);
+  const readSetting = (...keys) => {
+    for (const key of keys) {
+      const value = s[key];
+      if (value !== undefined && value !== null && String(value).trim()) return String(value).trim();
+    }
+    return "";
+  };
+
+  const ownerName = readSetting("ownerName", "OwnerName", "contactName", "ContactName", "fullName", "FullName");
+  const primaryPhone = readSetting("phone", "Phone");
+  const secondaryPhone = readSetting("phone2", "Phone2", "secondaryPhone", "SecondaryPhone");
+  const email = readSetting("email", "Email");
+  const serviceArea = readSetting("serviceArea", "ServiceArea");
+  const whatsappNumber = readSetting("whatsappNumber", "WhatsappNumber") || "48578414690";
+
+  const normalizePhone = value => {
+    const digits = String(value || "").replace(/\D/g, "");
+    if (!digits) return "";
+    return digits.startsWith("48") ? digits : "48" + digits;
+  };
+
+  const primaryPhoneDigits = normalizePhone(primaryPhone);
+  const secondaryPhoneDigits = normalizePhone(secondaryPhone);
+
+  document.querySelectorAll('[data-setting-link="phone"]').forEach(a => {
+    if (primaryPhoneDigits) a.href = "tel:+" + primaryPhoneDigits;
+  });
+  document.querySelectorAll('[data-setting-link="phone2"]').forEach(a => {
+    if (secondaryPhoneDigits) a.href = "tel:+" + secondaryPhoneDigits;
+  });
+  document.querySelectorAll('[data-setting-link="email"]').forEach(a => {
+    if (email) a.href = "mailto:" + email;
+  });
   document.querySelectorAll('[data-setting-link="whatsapp"]').forEach(a => {
     const old = a.getAttribute("href") || "";
     const text = old.includes("?") ? "?" + old.split("?").slice(1).join("?") : "";
-    a.href = "https://wa.me/" + (s.whatsappNumber || "48578414690") + text;
+    a.href = "https://wa.me/" + whatsappNumber + text;
   });
+
+  const iconMarkup = name => {
+    const icons = {
+      person: '<svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"></circle><path d="M4.5 21a7.5 7.5 0 0 1 15 0"></path></svg>',
+      location: '<svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0z"></path><circle cx="12" cy="10" r="2.5"></circle></svg>',
+      phone: '<svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 3h3l1.2 4-2 1.5a15 15 0 0 0 6.3 6.3l1.5-2L21 14v3c0 2-2 4-4 4C9.3 20.2 3.8 14.7 3 7c0-2 2-4 4-4z"></path></svg>',
+      mobile: '<svg aria-hidden="true" viewBox="0 0 24 24"><rect x="7" y="2.5" width="10" height="19" rx="2"></rect><path d="M10 5h4M11 18.5h2"></path></svg>',
+      email: '<svg aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m4 7 8 6 8-6"></path></svg>'
+    };
+    return icons[name] || "";
+  };
+
+  const createIcon = name => {
+    const icon = document.createElement("span");
+    icon.className = "footer-contact-icon";
+    icon.setAttribute("aria-hidden", "true");
+    icon.innerHTML = iconMarkup(name);
+    return icon;
+  };
+
+  const appendTextItem = (container, text, iconName, extraClass = "") => {
+    if (!String(text || "").trim()) return;
+    const item = document.createElement("div");
+    item.className = "footer-contact-item" + (extraClass ? " " + extraClass : "");
+    item.append(createIcon(iconName));
+    const value = document.createElement("span");
+    value.textContent = String(text).trim();
+    item.append(value);
+    container.append(item);
+  };
+
+  const appendLinkItem = (container, value, href, iconName, ariaLabel) => {
+    if (!String(value || "").trim()) return;
+    const link = document.createElement("a");
+    link.className = "footer-contact-item footer-contact-link";
+    link.href = href;
+    link.setAttribute("aria-label", ariaLabel + ": " + String(value).trim());
+    link.title = ariaLabel;
+    link.append(createIcon(iconName));
+    const text = document.createElement("span");
+    text.textContent = String(value).trim();
+    link.append(text);
+    container.append(link);
+  };
+
   document.querySelectorAll("[data-setting-area-block]").forEach(element => {
-    const line1 = s.serviceArea || "";
-    const line2 = s.phone ? "Telefon: " + s.phone : "";
-    element.innerHTML = line1 + (line2 ? "<br>" + line2 : "");
+    element.replaceChildren();
+    element.className = "footer-contact";
+
+    appendTextItem(element, ownerName, "person", "footer-owner");
+    serviceArea.split(/\r?\n/).forEach(line => appendTextItem(element, line, "location"));
+    if (primaryPhoneDigits) appendLinkItem(element, primaryPhone, "tel:+" + primaryPhoneDigits, "phone", "Telefon główny");
+    if (secondaryPhoneDigits) appendLinkItem(element, secondaryPhone, "tel:+" + secondaryPhoneDigits, "mobile", "Drugi numer telefonu");
+    if (email) appendLinkItem(element, email, "mailto:" + email, "email", "Adres e-mail");
   });
 })();

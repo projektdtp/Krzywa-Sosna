@@ -1,5 +1,7 @@
 ﻿{
+  "ownerName": "Marcin Kawalec",
   "phone": "578 414 690",
+  "phone2": "888 847 258",
   "whatsappNumber": "48578414690",
   "serviceArea": "Województwo lubelskie · inne lokalizacje po uzgodnieniu",
   "email": "kontakt@krzywasosna.pl",
@@ -13,7 +15,7 @@
     "bodyFontSize": 17,
     "smallFontSize": 13,
     "navFontSize": 12,
-    "h1FontSizeDesktop": 82,
+    "h1FontSizeDesktop": 70,
     "h1FontSizeMobile": 47,
     "h2FontSize": 50,
     "h3FontSize": 27,
