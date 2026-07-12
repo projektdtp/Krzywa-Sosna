@@ -15,7 +15,7 @@
     "delayMs": 900,
     "maxWidth": 610,
     "frequency": "everyVisit",
-    "startDate": "2026-07-13T00:00:00",
+    "startDate": "2026-07-11T00:00:00",
     "endDate": "2026-07-14T00:00:00",
     "startTime": "00:00",
     "endTime": "23:59",
