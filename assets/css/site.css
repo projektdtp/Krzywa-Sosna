@@ -801,3 +801,33 @@ body.ks-popup-open { overflow:hidden; }
   .ks-popup-card > img,
   .ks-popup-image-link img { max-height:66vh; }
 }
+
+/* Własne banery dodawane z Krzywa Sosna Manager */
+.ks-custom-banner {
+  width: 100%;
+  margin: clamp(22px, 4vw, 54px) 0;
+  overflow: hidden;
+  border: 1px solid rgba(240, 201, 131, .20);
+  border-radius: var(--ks-card-radius, 28px);
+  background: #0b0907;
+  box-shadow: 0 22px 60px rgba(0, 0, 0, .22);
+}
+.ks-custom-banner img {
+  display: block;
+  width: 100%;
+  max-height: 560px;
+  object-fit: cover;
+  filter: brightness(var(--ks-image-brightness, 100%));
+}
+.ks-custom-banner-link {
+  display: block;
+  text-decoration: none;
+}
+@media (max-width: 760px) {
+  .ks-custom-banner {
+    margin: 24px 0;
+  }
+  .ks-custom-banner img {
+    max-height: 390px;
+  }
+}

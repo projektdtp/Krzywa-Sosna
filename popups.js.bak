@@ -1,10 +1,10 @@
-﻿[
+﻿window.KS_POPUPS = [
   {
     "id": "sklep-start",
     "name": "Sklep Krzywej Sosny",
     "heading": "",
     "description": "",
-    "imageFileName": "assets/img/popups/prl-20260712191655.jpg",
+    "imageFileName": "assets/img/popups/prl-20260712191655.png",
     "imageAlt": "Nowość — sklep Krzywej Sosny",
     "linkUrl": "krzywa_sosna_sklep.html",
     "buttonText": "",
@@ -28,4 +28,4 @@
     "showOnShop": false,
     "showOnContact": false
   }
-]
+];
