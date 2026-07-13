@@ -5,6 +5,12 @@
   "whatsappNumber": "48578414690",
   "serviceArea": "Województwo lubelskie · inne lokalizacje po uzgodnieniu",
   "email": "kontakt@krzywasosna.pl",
+  "footerSlogan": "",
+  "footerWatermarkOpacity": 12,
+  "footerHeight": 220,
+  "footerWatermarkSize": 380,
+  "footerWatermarkEnabled": true,
+  "footerDecorativeLineEnabled": true,
   "popupEnabled": true,
   "popupDelayMs": 900,
   "appearance": {
