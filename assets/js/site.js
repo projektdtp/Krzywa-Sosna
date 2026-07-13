@@ -22,9 +22,14 @@
     });
   });
 
-  // accordion
-  $$(".accordion-button").forEach(btn => {
-    btn.addEventListener("click", () => btn.closest(".accordion-item").classList.toggle("open"));
+  // accordion — delegacja obsługuje również pytania dodawane z Managera
+  document.addEventListener("click", e => {
+    const btn = e.target.closest(".accordion-button");
+    if (!btn) return;
+    const item = btn.closest(".accordion-item");
+    if (!item) return;
+    const isOpen = item.classList.toggle("open");
+    btn.setAttribute("aria-expanded", isOpen ? "true" : "false");
   });
 
   // modal generic

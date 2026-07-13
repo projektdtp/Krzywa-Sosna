@@ -141,5 +141,27 @@
     "imageFileName": "img/sklep/kufer-na-zabawki-20260712191506.png",
     "isActive": true,
     "sortOrder": 13
+  },
+  {
+    "id": "7443dc0e-a7b1-4fe9-88fc-f4791762f14d",
+    "name": "pralka suszarka",
+    "category": "Łazienka",
+    "badge": "Ergonomia",
+    "description": "Funkcjonalna zabudowa z miejscem na pralkę i suszarkę w słupku, pojemnymi szafkami, szufladami, półkami oraz blatem ze zlewem. Połączenie kaszmiru i drewna nadaje całości ciepły, nowoczesny charakter. Układ, wymiary i kolorystykę dopasowujemy indywidualnie.",
+    "price": "od 3500 zł",
+    "imageFileName": "img/sklep/pralka-i-suszarka-20260713100144.png",
+    "isActive": true,
+    "sortOrder": 14
+  },
+  {
+    "id": "7750492b-5fd2-45ce-917b-2cd11d8df9b8",
+    "name": "Szafka nocna ze światłem orientacyjnym",
+    "category": "Sypialnia",
+    "badge": "Nowość",
+    "description": "Nowoczesna szafka nocna z praktycznymi szufladami i delikatnym oświetleniem LED. Zapewnia wygodne miejsce do przechowywania, a ciepłe światło ułatwia poruszanie się po sypialni nocą i tworzy przytulny klimat.",
+    "price": "od 300 zł",
+    "imageFileName": "img/sklep/szafka-nocna-led-20260713115137.png",
+    "isActive": true,
+    "sortOrder": 15
   }
 ];

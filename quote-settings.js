@@ -20,7 +20,7 @@
   "ledPerMeter": 380,
   "worktopPerMeter": 850,
   "assemblyMinimum": 900,
-  "assemblyPercent": 11,
+  "assemblyPercent": 15,
   "difficultWallsPercent": 118,
   "premiumHardwareMinimum": 900,
   "premiumHardwarePerMeter": 520,

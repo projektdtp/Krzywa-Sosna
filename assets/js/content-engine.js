@@ -182,6 +182,44 @@
   const email = readSetting("email", "Email");
   const serviceArea = readSetting("serviceArea", "ServiceArea");
   const whatsappNumber = readSetting("whatsappNumber", "WhatsappNumber") || "48578414690";
+  const footerSlogan = readSetting("footerSlogan", "FooterSlogan");
+  const footerWatermarkEnabled = s.footerWatermarkEnabled !== false && s.FooterWatermarkEnabled !== false;
+  const footerDecorativeLineEnabled = s.footerDecorativeLineEnabled !== false && s.FooterDecorativeLineEnabled !== false;
+  const footerWatermarkOpacity = number(
+    s.footerWatermarkOpacity ?? s.FooterWatermarkOpacity,
+    12,
+    0,
+    30
+  ) / 100;
+  const footerHeight = number(
+    s.footerHeight ?? s.FooterHeight,
+    350,
+    220,
+    650
+  );
+  const footerHeightMobile = Math.max(190, Math.min(420, Math.round(footerHeight * 0.72)));
+  const footerWatermarkSize = number(
+    s.footerWatermarkSize ?? s.FooterWatermarkSize,
+    510,
+    180,
+    900
+  );
+  root.style.setProperty("--ks-footer-watermark-opacity", String(footerWatermarkOpacity));
+  root.style.setProperty("--ks-footer-height", footerHeight + "px");
+  root.style.setProperty("--ks-footer-height-mobile", footerHeightMobile + "px");
+  root.style.setProperty("--ks-footer-watermark-size", footerWatermarkSize + "px");
+
+  document.querySelectorAll("[data-setting-footer-slogan]").forEach(element => {
+    element.textContent = footerSlogan;
+  });
+  document.querySelectorAll(".site-footer-premium").forEach(footer => {
+    footer.classList.toggle("footer-watermark-off", !footerWatermarkEnabled);
+    footer.classList.toggle("footer-line-off", !footerDecorativeLineEnabled);
+    footer.classList.toggle("footer-slogan-off", !footerSlogan);
+  });
+  document.querySelectorAll("[data-current-year]").forEach(element => {
+    element.textContent = String(new Date().getFullYear());
+  });
 
   const normalizePhone = value => {
     const digits = String(value || "").replace(/\D/g, "");
