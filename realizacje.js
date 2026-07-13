@@ -136,22 +136,22 @@
     "images": [
       {
         "id": "0291fef5-cb2a-4b00-9a0d-d156b77ebf37",
-        "fileName": "assets/img/realizacje/1-20260713113621794-59bc36.jpg",
+        "fileName": "assets/img/realizacje/1-20260713113621794-59bc36-web.jpg",
         "altText": "Kuchnia z wyspą",
         "sortOrder": 1,
         "isCover": true
       },
       {
         "id": "c66526b9-7645-4f7e-820b-47c6c451429a",
-        "fileName": "assets/img/realizacje/2-20260713113948033-34d275.jpg",
+        "fileName": "assets/img/realizacje/2-20260713113948033-34d275-web.jpg",
         "altText": "Kuchnia z wyspą",
         "sortOrder": 2,
         "isCover": false
       },
       {
         "id": "a6b761c2-25b6-4afb-848f-3956fcfd275c",
-        "fileName": "assets/img/realizacje/3-20260713114122015-d79a69.jpg",
-        "altText": "",
+        "fileName": "assets/img/realizacje/3-20260713114122015-d79a69-web.jpg",
+        "altText": "Kuchnia z wyspą",
         "sortOrder": 3,
         "isCover": false
       }

@@ -226,9 +226,9 @@
     "section": "Przygotuj wiadomość w minutę",
     "label": "OBRAZ: Planowanie projektu",
     "kind": "Image",
-    "value": "assets/img/plany.webp",
+    "value": "assets/img/custom/konsultantka-20260713122105182.jpg",
     "isActive": true,
-    "altText": "",
+    "altText": "konsultantka",
     "linkUrl": "",
     "position": "AfterHero",
     "sortOrder": 0

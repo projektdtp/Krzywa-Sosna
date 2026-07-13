@@ -149,7 +149,7 @@
     "badge": "Ergonomia",
     "description": "Funkcjonalna zabudowa z miejscem na pralkę i suszarkę w słupku, pojemnymi szafkami, szufladami, półkami oraz blatem ze zlewem. Połączenie kaszmiru i drewna nadaje całości ciepły, nowoczesny charakter. Układ, wymiary i kolorystykę dopasowujemy indywidualnie.",
     "price": "od 3500 zł",
-    "imageFileName": "img/sklep/pralka-i-suszarka-20260713100144.jpg",
+    "imageFileName": "img/sklep/pralka-i-suszarka-20260713100144-web.jpg",
     "isActive": true,
     "sortOrder": 14
   },
@@ -160,7 +160,7 @@
     "badge": "Nowość",
     "description": "Nowoczesna szafka nocna z praktycznymi szufladami i delikatnym oświetleniem LED. Zapewnia wygodne miejsce do przechowywania, a ciepłe światło ułatwia poruszanie się po sypialni nocą i tworzy przytulny klimat.",
     "price": "od 300 zł",
-    "imageFileName": "img/sklep/szafka-nocna-led-20260713115137.jpg",
+    "imageFileName": "img/sklep/szafka-nocna-led-20260713115137-web.jpg",
     "isActive": true,
     "sortOrder": 15
   }
